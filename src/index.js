@@ -6,22 +6,18 @@ import './css/reset.css'
 import './css/style.css'
 import App from './App'
 
-
-// main ("ROOT") component 
+// main ("ROOT") component
 class Root extends React.Component {
+  render () {
+    return (
+      <div>
+        <App />
+      </div>
 
-render() {
-
-return (
-<div>
-  <App />
-</div>
-
-
-)// end return
-}// end render
+    )// end return
+  }// end render
 }// end component
 
-ReactDOM.render(<Root />, 
+ReactDOM.render(<Root />,
   document.getElementById('root'))
-  registerServiceWorker()
+registerServiceWorker()
