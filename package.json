@@ -1,14 +1,14 @@
 {
-  "name": "react-starter-cra",
+  "name": "react-spring-transitions",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-spring": "^5.6.13"
+    "react": "latest",
+    "react-dom": "latest",
+    "react-spring": "latest"
   },
   "devDependencies": {
-    "react-scripts": "1.1.4"
+    "react-scripts": "latest"
   },
   "scripts": {
     "dev": "react-scripts start",
@@ -16,7 +16,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "main": "index.js",
-  "author": "mattperkins <github@mattperkins.com>",
+  "main": "src/index.js",
+  "author": "DORMshed",
   "license": "MIT"
 }
