@@ -11,12 +11,18 @@
     "react-scripts": "latest"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "main": "src/index.js",
   "author": "DORMshed",
-  "license": "MIT"
+  "license": "MIT",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
