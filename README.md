@@ -1,11 +1,13 @@
+# work in progress
+
 # INSTALL 
 ## yarn 
 
 # RUN 
-## yarn dev 
+## yarn start
 
 # ENDPOINTS 
-## localhost: 
+## localhost:3000 
 
 # DEPLOY 
 ## yarn build
